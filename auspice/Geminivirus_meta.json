@@ -1,0 +1,987 @@
+{
+  "annotations": {
+    "AC1": {
+      "end": 1080,
+      "start": 0,
+      "strand": 1
+    },
+    "AC2": {
+      "end": 1080,
+      "start": 988,
+      "strand": 1
+    },
+    "AC4": {
+      "end": 391,
+      "start": 157,
+      "strand": 1
+    },
+    "nuc": {
+      "end": 1080,
+      "start": 0,
+      "strand": 1
+    }
+  },
+  "author_info": {},
+  "color_options": {
+    "country": {
+      "color_map": [
+        [
+          "Angola",
+          "#511EA8"
+        ],
+        [
+          "Benin",
+          "#4334BF"
+        ],
+        [
+          "Burkina_Faso",
+          "#3F50CC"
+        ],
+        [
+          "Cameroon",
+          "#416CCE"
+        ],
+        [
+          "Central_African_Republic",
+          "#4784C7"
+        ],
+        [
+          "Comoros",
+          "#5098B9"
+        ],
+        [
+          "Democratic_Republic_of_the_Congo",
+          "#5CA7A4"
+        ],
+        [
+          "Equatorial_Guinea",
+          "#6BB18E"
+        ],
+        [
+          "Ghana",
+          "#7CB878"
+        ],
+        [
+          "Kenya",
+          "#A4BE56"
+        ],
+        [
+          "Madagascar",
+          "#B9BC4A"
+        ],
+        [
+          "Malawi",
+          "#CCB742"
+        ],
+        [
+          "Mayotte",
+          "#DAAC3D"
+        ],
+        [
+          "Nigeria",
+          "#E39B39"
+        ],
+        [
+          "Oman",
+          "#E68234"
+        ],
+        [
+          "Seychelles",
+          "#E4632E"
+        ],
+        [
+          "south_Africa",
+          "#DF4027"
+        ],
+        [
+          "Tanzania",
+          "#4928B4"
+        ],
+        [
+          "Togo",
+          "#4379CD"
+        ],
+        [
+          "Uganda",
+          "#5CA7A4"
+        ],
+        [
+          "Zambia",
+          "#DC2F24"
+        ]
+      ],
+      "key": "country",
+      "legendTitle": "country",
+      "menuItem": "country",
+      "type": "discrete"
+    },
+    "location": {
+      "key": "location",
+      "legendTitle": "location",
+      "menuItem": "location",
+      "type": "discrete"
+    },
+    "num_date": {
+      "key": "num_date",
+      "legendTitle": "Sampling date",
+      "menuItem": "date",
+      "type": "continuous"
+    },
+    "virus": {
+      "key": "virus",
+      "legendTitle": "virus",
+      "menuItem": "virus",
+      "type": "discrete"
+    }
+  },
+  "defaults": {
+    "mapTriplicate": true
+  },
+  "filters": [
+    "country",
+    "location",
+    "virus"
+  ],
+  "geo": {
+    "country": {
+      "Angola": {
+        "latitude": -9.6265267,
+        "longitude": 13.2658483
+      },
+      "Benin": {
+        "latitude": 9.402045,
+        "longitude": 2.310026
+      },
+      "Burkina_Faso": {
+        "latitude": 12.3216444,
+        "longitude": 0.95749998
+      },
+      "Cameroon": {
+        "latitude": 5.210705,
+        "longitude": 13.585181
+      },
+      "Central_African_Republic": {
+        "latitude": 4.13425,
+        "longitude": 18.18034
+      },
+      "Comoros": {
+        "latitude": -11.82,
+        "longitude": 43.29
+      },
+      "Democratic_Republic_of_the_Congo": {
+        "latitude": 6.357057,
+        "longitude": 19.087156
+      },
+      "Equatorial_Guinea": {
+        "latitude": 3.62365,
+        "longitude": 8.7465
+      },
+      "Ghana": {
+        "latitude": 8.300284,
+        "longitude": -1.800271
+      },
+      "Kenya": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "Madagascar": {
+        "latitude": -17.19198231,
+        "longitude": 47.48044615
+      },
+      "Malawi": {
+        "latitude": -13.9735,
+        "longitude": 33.7878
+      },
+      "Mayotte": {
+        "latitude": -12.82,
+        "longitude": 45.15
+      },
+      "Nigeria": {
+        "latitude": 10.80001795,
+        "longitude": 8.17498605
+      },
+      "Oman": {
+        "latitude": 21.736661,
+        "longitude": 56.3664835
+      },
+      "Seychelles": {
+        "latitude": -4.65749,
+        "longitude": 55.45
+      },
+      "Tanzania": {
+        "latitude": -6.1664908,
+        "longitude": 39.2074312
+      },
+      "Togo": {
+        "latitude": 8.24858,
+        "longitude": 1.046253
+      },
+      "Uganda": {
+        "latitude": 1.168253,
+        "longitude": 32.684344
+      },
+      "Zambia": {
+        "latitude": -14.51,
+        "longitude": 27.55
+      },
+      "Zimbabwe": {
+        "latitude": -16.4184958,
+        "longitude": 31.1330274
+      },
+      "cambodia": {
+        "latitude": 13.679988,
+        "longitude": 106.5784889
+      },
+      "china": {
+        "latitude": 25.340718,
+        "longitude": 116.456155
+      },
+      "india": {
+        "latitude": 11.076004,
+        "longitude": 77.064672
+      },
+      "kenya": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "laos": {
+        "latitude": 13.94325,
+        "longitude": 105.99102
+      },
+      "singapore": {
+        "latitude": 1.297333,
+        "longitude": 103.775836
+      },
+      "south_Africa": {
+        "latitude": -29.8129196,
+        "longitude": 30.6364594
+      },
+      "sri_Lanka": {
+        "latitude": 7.623624,
+        "longitude": 80.733229
+      },
+      "thailand": {
+        "latitude": 13.8824956,
+        "longitude": 101.5830231
+      },
+      "vietnam": {
+        "latitude": 15.015518,
+        "longitude": 108.1444
+      }
+    },
+    "location": {
+      "Kakamega_musumba": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "Kakamega_unganyiro": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "acoua": {
+        "latitude": -12.920437,
+        "longitude": 45.158379
+      },
+      "ambatoe": {
+        "latitude": -18.875448,
+        "longitude": 47.558234
+      },
+      "ambodifototra": {
+        "latitude": -17.059,
+        "longitude": 49.82
+      },
+      "amparafaravola": {
+        "latitude": -17.75855,
+        "longitude": 48.44202
+      },
+      "anjouan": {
+        "latitude": -12.238001,
+        "longitude": 44.414932
+      },
+      "ankaramibe": {
+        "latitude": -13.96449,
+        "longitude": 48.18154
+      },
+      "ankilizato": {
+        "latitude": -20.41469,
+        "longitude": 45.06203
+      },
+      "antananarivo": {
+        "latitude": -18.875448,
+        "longitude": 47.558234
+      },
+      "antonibe": {
+        "latitude": -15.1603,
+        "longitude": 47.77603
+      },
+      "antsakoabe": {
+        "latitude": -12.59414,
+        "longitude": 49.38832
+      },
+      "antsiranana": {
+        "latitude": -12.32696,
+        "longitude": 49.27625
+      },
+      "antsohihy": {
+        "latitude": -14.87214,
+        "longitude": 48.07824
+      },
+      "arua": {
+        "latitude": 2.9479914,
+        "longitude": 31.1256453
+      },
+      "aturr": {
+        "latitude": 11.55642,
+        "longitude": 78.63371
+      },
+      "bekoratsaka": {
+        "latitude": -16.01449,
+        "longitude": 47.65034
+      },
+      "bengo": {
+        "latitude": -9.6265267,
+        "longitude": 13.2658483
+      },
+      "bioko": {
+        "latitude": 3.62365,
+        "longitude": 8.7465
+      },
+      "bungoma": {
+        "latitude": 0.5856394,
+        "longitude": 34.4234113
+      },
+      "burirum": {
+        "latitude": 14.975328,
+        "longitude": 103.069299
+      },
+      "bushenyi": {
+        "latitude": -0.538941,
+        "longitude": 30.1894
+      },
+      "busia": {
+        "latitude": 0.3723036,
+        "longitude": 34.2645325
+      },
+      "busia_bujuanga": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "busia_funyula": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "busia_khayinga": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "busia_mulakha_ganja": {
+        "latitude": 0.4571184,
+        "longitude": 34.1067733
+      },
+      "busia_nambugu": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "busia_sibinga": {
+        "latitude": 0.3474474,
+        "longitude": 34.1213913
+      },
+      "chad": {
+        "latitude": 9.1017,
+        "longitude": 18.0925
+      },
+      "champassack": {
+        "latitude": 13.94325,
+        "longitude": 105.99102
+      },
+      "chirongui": {
+        "latitude": -12.920437,
+        "longitude": 45.158379
+      },
+      "colombo": {
+        "latitude": 6.93195,
+        "longitude": 79.84556
+      },
+      "combani": {
+        "latitude": -12.790571,
+        "longitude": 45.131677
+      },
+      "datian": {
+        "latitude": 26.15,
+        "longitude": 118.41667
+      },
+      "dembeni": {
+        "latitude": -12.843624,
+        "longitude": 45.184631
+      },
+      "diana": {
+        "latitude": -13.267044,
+        "longitude": 49.621975
+      },
+      "distrito_de_belo_sur_tsiribihina": {
+        "latitude": -19.68065,
+        "longitude": 44.54804
+      },
+      "distrito_de_moramanga": {
+        "latitude": -18.20196,
+        "longitude": 48.25882
+      },
+      "douala": {
+        "latitude": 4.054051,
+        "longitude": 9.754504
+      },
+      "dzoumonie": {
+        "latitude": -12.719103,
+        "longitude": 45.118588
+      },
+      "fianarantsoa": {
+        "latitude": -21.29239,
+        "longitude": 47.57182
+      },
+      "funyula": {
+        "latitude": 0.25829,
+        "longitude": 34.052603
+      },
+      "grande_comore": {
+        "latitude": -11.708165,
+        "longitude": 43.36633
+      },
+      "ibadan": {
+        "latitude": 7.404791,
+        "longitude": 3.948112
+      },
+      "iganga": {
+        "latitude": 0.6782174,
+        "longitude": 33.5522381
+      },
+      "ile_aux_nattes": {
+        "latitude": -17.1,
+        "longitude": 49.8
+      },
+      "kaberamaido": {
+        "latitude": 1.760093,
+        "longitude": 33.253222
+      },
+      "kagamega": {
+        "latitude": 0.28,
+        "longitude": 34.72
+      },
+      "kakamega_koyonzo": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kakamega_matungu": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kakamega_musamba": {
+        "latitude": 0.27566,
+        "longitude": 34.749623
+      },
+      "kalangala": {
+        "latitude": -0.6932717,
+        "longitude": 32.3754492
+      },
+      "kani_keli": {
+        "latitude": -12.954894,
+        "longitude": 45.106308
+      },
+      "kano": {
+        "latitude": 12.067888,
+        "longitude": 8.606813
+      },
+      "kapou": {
+        "latitude": 4.13425,
+        "longitude": 18.18034
+      },
+      "katerniaghat": {
+        "latitude": 28.24704,
+        "longitude": 81.231187
+      },
+      "kaweni": {
+        "latitude": -12.76868,
+        "longitude": 45.222304
+      },
+      "kerala_Kattakuda": {
+        "latitude": 8.501761,
+        "longitude": 77.083653
+      },
+      "kerala_Malappuram": {
+        "latitude": 11.13017,
+        "longitude": 76.11481
+      },
+      "kerala_Malayinkil": {
+        "latitude": 8.490399,
+        "longitude": 77.040245
+      },
+      "kerala_adivaram": {
+        "latitude": 11.487609,
+        "longitude": 76.012761
+      },
+      "kerala_erode": {
+        "latitude": 11.344619,
+        "longitude": 77.716241
+      },
+      "kerala_tamil_nadu": {
+        "latitude": 11.233947,
+        "longitude": 78.768159
+      },
+      "kilifi": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "kilifi_kwakadzengo": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "kilifi_kwamugomba": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "kilifi_mwezangombe": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kilifi_sharian": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kilifi_vipingo": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "kitui_township": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "koubri": {
+        "latitude": 12.048222,
+        "longitude": -1.2525001
+      },
+      "koungou": {
+        "latitude": -12.737051,
+        "longitude": 45.20766
+      },
+      "kuria_kehancha_kambi": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kuria_kehancha_kurutinyange": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kuria_kehancha_masagangi": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kwale_boa": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kwale_boundary": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kwale_kibaoni": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kwale_kinyumbini": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kwale_mamba": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kwale_misakwakwani": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kwale_msambweni_kitsumbani": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kwale_msambweni_shauri_moyo": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "kwale_perani": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "kwale_shirachi": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "la_digue": {
+        "latitude": -4.331905,
+        "longitude": 55.74556
+      },
+      "lake_victoria_basin": {
+        "latitude": -2.284604088,
+        "longitude": 33.948025
+      },
+      "lekana": {
+        "latitude": 2.315936,
+        "longitude": 14.58198
+      },
+      "machakos": {
+        "latitude": -1.2790047,
+        "longitude": 37.3952698
+      },
+      "machakos_kathiana_kakuyuni": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "machakos_kathiani_kawethei": {
+        "latitude": 1.51,
+        "longitude": 37.26
+      },
+      "machakos_katumani": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "machakos_matuu_kikumini": {
+        "latitude": 1.51,
+        "longitude": 37.26
+      },
+      "machakos_matuu_kithendu": {
+        "latitude": 1.51,
+        "longitude": 37.26
+      },
+      "machakos_migwani_kangutheni": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "machakos_migwani_kasevi": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "machakos_migwani_tiuuni": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "machakos_mitaboni_ngiini": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "machakos_tala": {
+        "latitude": 1.51,
+        "longitude": 37.26
+      },
+      "madirovolo": {
+        "latitude": -16.40945,
+        "longitude": 46.77244
+      },
+      "mahajanga": {
+        "latitude": -15.5839,
+        "longitude": 47.66251
+      },
+      "maharashtra": {
+        "latitude": 20.264024,
+        "longitude": 67.620886
+      },
+      "mahe": {
+        "latitude": -4.331905,
+        "longitude": 55.74556
+      },
+      "makueni": {
+        "latitude": -1.7903026,
+        "longitude": 37.6286033
+      },
+      "makueni_kibwezi": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "malaba": {
+        "latitude": 0.6328964,
+        "longitude": 34.2765543
+      },
+      "malaimbandy": {
+        "latitude": -20.35009,
+        "longitude": 45.5589
+      },
+      "malamani": {
+        "latitude": -12.920437,
+        "longitude": 45.158379
+      },
+      "malindi_fulunzi": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "malindi_kasumalini": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "malindi_malindi_b": {
+        "latitude": 3.62,
+        "longitude": 39.85
+      },
+      "malindi_msabaha_kari": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "manakara": {
+        "latitude": -22.141307,
+        "longitude": 48.010535
+      },
+      "mananjary": {
+        "latitude": -21.72237,
+        "longitude": 48.00055
+      },
+      "manjagou": {
+        "latitude": -12.845497,
+        "longitude": 45.115234
+      },
+      "maramondia": {
+        "latitude": -14.21064,
+        "longitude": 48.06968
+      },
+      "marivorahona": {
+        "latitude": -13.1038,
+        "longitude": 49.11025
+      },
+      "maromandia": {
+        "latitude": -14.21064,
+        "longitude": 48.06968
+      },
+      "marovoay": {
+        "latitude": -16.01449,
+        "longitude": 47.65034
+      },
+      "masaka": {
+        "latitude": -0.4831071,
+        "longitude": 31.8319203
+      },
+      "matsiatra_ambony": {
+        "latitude": -22.80462,
+        "longitude": 47.76955
+      },
+      "miandrivazo": {
+        "latitude": -19.86311,
+        "longitude": 45.51537
+      },
+      "migori": {
+        "latitude": -1.054,
+        "longitude": 34.46
+      },
+      "migori_masala": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "migori_otho": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "mkueni": {
+        "latitude": -2.3666,
+        "longitude": 37.9
+      },
+      "moheli": {
+        "latitude": -12.335323,
+        "longitude": 43.731803
+      },
+      "morondava": {
+        "latitude": -20.25628,
+        "longitude": 44.4135
+      },
+      "mpigi": {
+        "latitude": 0.012,
+        "longitude": 31.7366968
+      },
+      "mpumalanga": {
+        "latitude": -29.8129196,
+        "longitude": 30.6364594
+      },
+      "mronabeja": {
+        "latitude": -12.976568,
+        "longitude": 45.126358
+      },
+      "mtwapa": {
+        "latitude": -3.938389,
+        "longitude": 39.750858
+      },
+      "mumias": {
+        "latitude": 0.3363,
+        "longitude": 34.4891
+      },
+      "muzarabani": {
+        "latitude": -16.4184958,
+        "longitude": 31.1330274
+      },
+      "n_gouja": {
+        "latitude": -12.920437,
+        "longitude": 45.158379
+      },
+      "nakasongola": {
+        "latitude": 1.320436,
+        "longitude": 32.489435
+      },
+      "namulonge": {
+        "latitude": 1.316646,
+        "longitude": 32.356657
+      },
+      "otdormeanchey": {
+        "latitude": 14.129444,
+        "longitude": 104.337776
+      },
+      "otuboi_soroti_district": {
+        "latitude": 1.78481,
+        "longitude": 33.59432
+      },
+      "ouagadougou": {
+        "latitude": 12.39,
+        "longitude": 1.51
+      },
+      "poroani": {
+        "latitude": -12.920437,
+        "longitude": 45.158379
+      },
+      "prachin_buri": {
+        "latitude": 13.8824956,
+        "longitude": 101.583023
+      },
+      "praslin": {
+        "latitude": -4.331905,
+        "longitude": 55.74556
+      },
+      "pursat": {
+        "latitude": 12.456388,
+        "longitude": 103.889442
+      },
+      "rakai": {
+        "latitude": -0.707279,
+        "longitude": 31.405091
+      },
+      "ratanakiri": {
+        "latitude": 13.695,
+        "longitude": 106.592222
+      },
+      "salem": {
+        "latitude": 11.55642,
+        "longitude": 78.63371
+      },
+      "sega": {
+        "latitude": 0.2491504,
+        "longitude": 34.2247653
+      },
+      "siaya": {
+        "latitude": 0.2558,
+        "longitude": 34.2258
+      },
+      "siaya_komolo": {
+        "latitude": 0.1106344,
+        "longitude": 34.2899483
+      },
+      "siaya_luanda": {
+        "latitude": 0.063343,
+        "longitude": 34.288425
+      },
+      "siaya_nyamila": {
+        "latitude": 0.279623,
+        "longitude": 34.117801
+      },
+      "siaya_township": {
+        "latitude": 0.279623,
+        "longitude": 34.117801
+      },
+      "singapore": {
+        "latitude": 1.297333,
+        "longitude": 103.775836
+      },
+      "soavinandriana": {
+        "latitude": -19.230521,
+        "longitude": 46.765178
+      },
+      "srisaket": {
+        "latitude": 15.0712,
+        "longitude": 104.1918
+      },
+      "suba_migori_kwinyonki": {
+        "latitude": -1.419451,
+        "longitude": 37.298404
+      },
+      "surin": {
+        "latitude": 15.061014,
+        "longitude": 103.761312
+      },
+      "tayninh": {
+        "latitude": 11.31465,
+        "longitude": 106.09276
+      },
+      "tha_paya": {
+        "latitude": 13.89388889,
+        "longitude": 102.7447222
+      },
+      "thiruvananthapuram_Kerala": {
+        "latitude": 8.536886,
+        "longitude": 76.637008
+      },
+      "toamasina": {
+        "latitude": -18.860261,
+        "longitude": 49.147504
+      },
+      "toliara": {
+        "latitude": -23.3342,
+        "longitude": 43.68936
+      },
+      "toliary": {
+        "latitude": -23.351229,
+        "longitude": 43.684407
+      },
+      "tsararano": {
+        "latitude": -12.835278,
+        "longitude": 45.170663
+      },
+      "tsoun": {
+        "latitude": -12.920437,
+        "longitude": 45.158379
+      },
+      "ugunja": {
+        "latitude": 0.1811616,
+        "longitude": 34.2964709
+      },
+      "vahibe": {
+        "latitude": -12.920437,
+        "longitude": 45.158379
+      },
+      "vahibeni": {
+        "latitude": -12.835278,
+        "longitude": 45.170663
+      },
+      "vohilava": {
+        "latitude": -17.059,
+        "longitude": 49.82
+      },
+      "wakiso": {
+        "latitude": 0.2182858,
+        "longitude": 32.5130304
+      },
+      "yangambi": {
+        "latitude": 0.456407,
+        "longitude": 24.473363
+      },
+      "zanzibar": {
+        "latitude": 21.755148,
+        "longitude": 55.911978
+      },
+      "zanzibar_uguja_island": {
+        "latitude": 6.743186,
+        "longitude": 34.834461
+      }
+    }
+  },
+  "maintainer": [
+    "PestDisPlace",
+    "https://pestdisplace.org/"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "title": "Real-time tracking of cassava-infecting geminiviruses in Africa (DNA-A)",
+  "updated": "26 Jan 2021",
+  "virus_count": 739
+}
